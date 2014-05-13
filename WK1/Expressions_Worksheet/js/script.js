@@ -8,7 +8,7 @@ var humanYears = 1;
 var dogYears = humanYears * 7;
 
 //print out sparky's age
-console.log("Sparky is "  + humanYears +" " + "human years old which is" + dogYears + "in dog years." );
+console.log("Sparky is "  + humanYears +" " + "human years old which is" +" " + dogYears + " "+ "in dog years." );
 
 
 //Slice of pie pt.1
