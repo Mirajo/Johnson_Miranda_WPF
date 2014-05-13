@@ -1,6 +1,6 @@
 //Expressions - Modulo Operator
 
-var remainder = 144 % 10;
+var remainder = 144 % 2;
 console.log(remainder);
 
 
