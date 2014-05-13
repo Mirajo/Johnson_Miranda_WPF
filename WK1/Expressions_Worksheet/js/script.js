@@ -5,6 +5,7 @@
 
 var dogYears;
 var humanYears = 1;
+var dogYears = humanYears * 7;
 console.log(dogYears);
 
 
