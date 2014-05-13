@@ -1,8 +1,8 @@
 //Javascript declaring variables
 
 
-var age; //declaration//
-age = 33; //declaration
+var age; //declaration
+age = 33; //definition
 
 //storage container = value
 
