@@ -1,6 +1,8 @@
 //Arrays
 
 
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo" ]; //0,1,2,3
+var muppetNames = ["Kermit", "Miss Piggy",]; //0,1,
 
-console.log(muppetNames[0]);
+muppetNames[1] = "Rizzo"; //changes index #1 to Rizzo
+muppetNames[2] = "Rizzo"; 
+console.log(muppetNames[2]);
