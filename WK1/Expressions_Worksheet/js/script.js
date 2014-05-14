@@ -13,9 +13,12 @@ console.log("Sparky is "  + humanYears +" " + "human years old which is" +" " + 
 
 //Slice of pie pt.1
 
+var slices;
 var spp = 8;
 var pap = 16;
 var po = 5;
+
+var slices = spp * po / pap;
 
 //print out number number of slices each person ate
 concole.log("Each person ate "   " slices of pizza at the party".
