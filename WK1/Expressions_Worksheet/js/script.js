@@ -26,6 +26,16 @@ console.log("Each person ate "+ slices +" slices of pizza at the party.");
 
 //Slice of pie pt.2
 
+var slices;
+var spp = 8;
+var pap = 16;
+var po = 5;
+
+
+
+//Sparky got x slices of pizza
+console.log("Sparky got" +  +"slices of pizza.")
+
 
 
 //Discounts
