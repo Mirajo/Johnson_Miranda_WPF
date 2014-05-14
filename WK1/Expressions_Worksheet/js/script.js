@@ -21,7 +21,7 @@ var po = 5;
 var slices = spp * po / pap;
 
 //print out number number of slices each person ate
-concole.log("Each person ate "   " slices of pizza at the party".
+concole.log("Each person ate "   " slices of pizza at the party.");
 
 
 //Slice of pie pt.2
