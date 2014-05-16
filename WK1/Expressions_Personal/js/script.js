@@ -33,3 +33,6 @@ var dvd1ttl = prompt("Enter Dvd total 3");
 
 //Dvd title total 4
 var dvd1ttl = prompt("Enter Dvd total 4");
+
+//Total of all Dvd's
+var dvdall = (dvd1 + dvd2 + dvd3 + dvd4); 
