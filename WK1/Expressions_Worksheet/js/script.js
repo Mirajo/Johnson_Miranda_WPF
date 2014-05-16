@@ -39,26 +39,3 @@ console.log("Sparky got" + spark +"slices of pizza.");
 
 
 
-//Average shopping bill
-
-var wg =["wk1", "wk2", "wk3", "wk4", "wk5"];
-
-
-
-console.log("You have spent a total of" + $X + "on groceries over 5 weeks. That is an average of" + $X + "per week.");
-
-
-
-
-//Discounts
-
-var op = 40.00; //original price
-var dp = 8;     //Discount percentage
-var doi = "shoes"; //description of item
-var stp = .5;      //sales tax percentage
-
-//var dp = op - 
-
-
-
-console.log("Your" + doi + "was originally"+ $op, +"but after a"+ dp% +"discount, it is now" + $X + "without tax, and" + $X + "with tax.”);
