@@ -56,12 +56,9 @@ console.log("You could spend $" + dvd3Ttlyr +" "+ "a year on DvD's if you spend"
  
 console.log("You could spend $" + dvd4Ttlyr +" "+ "a year on DvD's if you spend" + " " + dvd4Ttl +" " + "each month.");
  
+//Actual amount spent
+var dvdAmt = ("You actually spent" + (parseInt(dvd1Ttl) + (parseInt(dvd2Ttl) + (parseInt(dvd3Ttl) + (parseInt(dvd4Ttl)) +" ";
 
+//print out amount actually spent on dvds
+console.log(dvdAmt);
 
-//Total of all Dvd's
-
-var dvdAll = dvd1Ttlyr +" "+ dvd2Ttlyr +" "+ dvd3Ttlyr +" "+ dvd4Ttlyr; 
- 
-console.log("$" + dvdAll);
-
-console.log("You spent a total of $" +" "+ dvdAll +" "+ "on four dvds."); 
