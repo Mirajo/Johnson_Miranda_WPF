@@ -35,10 +35,10 @@ var dvd4Ttl = prompt("Enter Dvd total 4");
 
 //Total of all Dvd's
 
-var dvdAll = Math.floor(dvd1Ttl +" "+ dvd2Ttl +" "+ dvd3Ttl +" "+ dvd4Ttl); 
+var dvdAll = (dvd1Ttl +" "+ dvd2Ttl +" "+ dvd3Ttl +" "+ dvd4Ttl); 
 
 alert("$" + dvdAll);
 
-dvdAvg = dvdAll / 4;
+var dvdAvg = dvdAll / 4;
 
 console.log("You have spent a total of $" +" "+ dvdAll +" "+ "on four dvds. That's an Average of" +" "+ dvdAvg +" "+ "per DVD."); 
