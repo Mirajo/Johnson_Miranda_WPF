@@ -37,7 +37,7 @@ var dvd4Ttl = prompt("Enter Dvd total 4");
 
 var dvdAll = dvd1Ttl +" "+ dvd2Ttl +" "+ dvd3Ttl +" "+ dvd4Ttl; 
 
-alert("$" + dvdAll);
-
+var dvdAll = (dvd1Ttl) + (dvd2Ttl) + (dvd3Ttl) + (dvd4Ttl);
+console.log("$" + dvdAll);
 
 console.log("You spent a total of $" +" "+ dvdAll +" "+ "on four dvds."); 
