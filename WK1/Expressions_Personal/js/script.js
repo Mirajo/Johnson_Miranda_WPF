@@ -14,13 +14,12 @@ var dvd1 = prompt("Enter Title 1");
 var dvd2 = prompt("Enter Title 2");
 
 
-
 //Dvd title 3 purchased
 var dvd3 = prompt("Enter Title 3");
 
 
 //Dvd title 4 purchased
-var dvd4 = prompt("Enter Title 1");
+var dvd4 = prompt("Enter Title 4");
 
 //Dvd title total 1
 var dvd1Ttl = prompt("Enter Dvd total 1");
@@ -35,10 +34,11 @@ var dvd3Ttl = prompt("Enter Dvd total 3");
 var dvd4Ttl = prompt("Enter Dvd total 4");
 
 //Total of all Dvd's
-var dvdAll = (dvd1Ttl + dvd2Ttl + dvd3Ttl + dvd4Ttl); 
+
+var dvdAll = (dvd1Ttl +" "+ dvd2Ttl +" "+ dvd3Ttl +" "+ dvd4Ttl); 
 
 alert("$" + dvdAll);
 
 dvdAvg = dvdAll / 4;
 
-console.log("You have spent a total of" +" "+ $dvdAll +" "+ "on four dvds. That's an Average of" +" "+ dvdAvg +" "+ "per DVD."); 
+console.log("You have spent a total of $" +" "+ dvdAll +" "+ "on four dvds. That's an Average of" +" "+ dvdAvg +" "+ "per DVD."); 
