@@ -35,7 +35,7 @@ var dvd4Ttl = prompt("Enter Dvd total 4");
 
 //Total of all Dvd's
 
-var dvdAll = (dvd1Ttl +" "+ dvd2Ttl +" "+ dvd3Ttl +" "+ dvd4Ttl); 
+var dvdAll = Math.floor(dvd1Ttl +" "+ dvd2Ttl +" "+ dvd3Ttl +" "+ dvd4Ttl); 
 
 alert("$" + dvdAll);
 
