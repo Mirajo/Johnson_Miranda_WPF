@@ -31,11 +31,32 @@ var spp = 8;
 var pap = 16;
 var po = 5;
 
+var spark = spp * po;
 
 
 //Sparky got x slices of pizza
-console.log("Sparky got" +  +"slices of pizza.")
+console.log("Sparky got" +  +"slices of pizza.");
+
+
+
+//Average shopping bill
+
+var wg =["wk1", "wk2", "wk3", "wk4", "wk5"];
+
+
+
+console.log("You have spent a total of" + $X + "on groceries over 5 weeks. That is an average of" + $X + "per week”);
+
 
 
 
 //Discounts
+
+var op;
+var dp = 8%;
+var doi = 16;
+var stp = 5%
+
+
+
+console.log("Your" + X + "was originally"+ $X, +"but after a"+ X% +"discount, it is now" + $X + "without tax, and" + $X + "with tax.”);
