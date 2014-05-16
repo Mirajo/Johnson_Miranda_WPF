@@ -35,7 +35,7 @@ var spark = spp * po;
 
 
 //Sparky got x slices of pizza
-console.log("Sparky got" + spark +"slices of pizza.");
+console.log("Sparky got"+" " + spark + " " +"slices of pizza.");
 
 
 
