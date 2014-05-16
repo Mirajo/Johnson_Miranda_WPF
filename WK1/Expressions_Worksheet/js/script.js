@@ -13,10 +13,10 @@ console.log("Sparky is "  + humanYears +" " + "human years old which is" +" " + 
 
 //Slice of pie pt.1
 
-var slices;
-var spp = 8;
-var pap = 16;
-var po = 5;
+var slices; 
+var spp = 8; //slices per pizza
+var pap = 16; //people at party
+var po = 5; //pizzas order
 
 var slices = spp * po / pap;
 
@@ -27,9 +27,9 @@ console.log("Each person ate "+ slices +" slices of pizza at the party.");
 //Slice of pie pt.2
 
 var slices;
-var spp = 8;
-var pap = 16;
-var po = 5;
+var spp = 8; //slices per pizza
+var pap = 16; //people at party
+var po = 5; //pizzas order
 
 var spark = spp * po;
 
@@ -52,11 +52,13 @@ console.log("You have spent a total of" + $X + "on groceries over 5 weeks. That 
 
 //Discounts
 
-var op = 10;
-var dp = 8;
-var doi = "shoes";
-var stp = .5%;
+var op = 40.00; //original price
+var dp = 8;     //Discount percentage
+var doi = "shoes"; //description of item
+var stp = .5;      //sales tax percentage
+
+//var dp = op - 
 
 
 
-console.log("Your" + X + "was originally"+ $X, +"but after a"+ X% +"discount, it is now" + $X + "without tax, and" + $X + "with tax.”);
+console.log("Your" + doi + "was originally"+ $op, +"but after a"+ dp% +"discount, it is now" + $X + "without tax, and" + $X + "with tax.”);
