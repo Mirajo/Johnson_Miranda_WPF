@@ -27,3 +27,9 @@ var dvd1ttl = prompt("Enter Dvd total 1");
 
 //Dvd title total 2
 var dvd1ttl = prompt("Enter Dvd total 2");
+
+//Dvd title total 3
+var dvd1ttl = prompt("Enter Dvd total 3");
+
+//Dvd title total 4
+var dvd1ttl = prompt("Enter Dvd total 4");
