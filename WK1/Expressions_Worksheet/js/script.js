@@ -45,7 +45,7 @@ var wg =["wk1", "wk2", "wk3", "wk4", "wk5"];
 
 
 
-console.log("You have spent a total of" + $X + "on groceries over 5 weeks. That is an average of" + $X + "per week”);
+console.log("You have spent a total of" + $X + "on groceries over 5 weeks. That is an average of" + $X + "per week.");
 
 
 
