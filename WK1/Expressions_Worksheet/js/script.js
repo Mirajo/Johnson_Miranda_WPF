@@ -53,7 +53,7 @@ console.log("You have spent a total of" + $X + "on groceries over 5 weeks. That 
 //Discounts
 
 var op = 10;
-var dp = 8%;
+var dp = 8;
 var doi = "shoes";
 var stp = 5%;
 
