@@ -33,7 +33,8 @@ var dvd3Ttl = prompt("Enter Dvd total 3");
 //Dvd title total 4
 var dvd4Ttl = prompt("Enter Dvd total 4");
 
-//Cost per year
+
+//Cost per year per dvd
 
 //Cost per year if you purchase once a month
 var dvd1Ttlyr = dvd1Ttl * 12;
@@ -56,9 +57,10 @@ console.log("You could spend $" + dvd3Ttlyr +" "+ "a year on DvD's if you spend"
 console.log("You could spend $" + dvd4Ttlyr +" "+ "a year on DvD's if you spend" + " " + dvd4Ttl + "each month.");
  
 
+
 //Total of all Dvd's
 
-var dvdAll = dvd1Ttl +" "+ dvd2Ttl +" "+ dvd3Ttl +" "+ dvd4Ttl; 
+var dvdAll = dvd1Ttlyr +" "+ dvd2Ttlyr +" "+ dvd3Ttlyr +" "+ dvd4Ttlyr; 
  
 console.log("$" + dvdAll);
 
