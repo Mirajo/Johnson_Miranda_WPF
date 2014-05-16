@@ -15,7 +15,8 @@
 //var day6Hours = prompt("Enter hours worked on Day 6");
 //var day7Hours = prompt("Enter hours worked on Day 7");
 
-var hoursWk = "day1"[0] = prompt("Enter hours worked on Day 1");
+var hoursWk = "day1"[0] = prompt("Enter hours worked on Day 1"),
+			  "day2"[1] = prompt("Enter hours worked on Day 2");
 
 
 console.log(hoursWk);
