@@ -21,3 +21,9 @@ var dvd3 = prompt("Enter Title 3");
 
 //Dvd title 4 purchased
 var dvd4 = prompt("Enter Title 1");
+
+//Dvd title total 1
+var dvd1ttl = prompt("Enter Dvd total 1");
+
+//Dvd title total 2
+var dvd1ttl = prompt("Enter Dvd total 2");
