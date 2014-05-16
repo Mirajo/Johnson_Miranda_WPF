@@ -47,6 +47,7 @@ var dvd3Ttlyr = dvd3Ttl * 12;
 //Cost per year if you purchase once a month
 var dvd4Ttlyr = dvd4Ttl * 12;
 
+console.log("You could spend $" + dvd1Ttlyr + "a year on DvD's if you spend" + dvd1Ttl + "each month.");
 
 //Total of all Dvd's
 
