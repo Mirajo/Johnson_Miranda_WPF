@@ -30,4 +30,6 @@ var monLun = (week1 + week2 + week3 + week4);
 
 console.log("You have spent a total of $" +" "+ monLun +" "+ "this month on lunch while at work.");
 
+var avgLun = monLun / 30;
 
+console.log("Your average amount spent on lunch per day is" +" "+ monLun + ".");
