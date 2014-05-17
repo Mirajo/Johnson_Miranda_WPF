@@ -42,4 +42,4 @@ console.log("You have spent a total of $" +" "+ monLun +" "+ "this month on lunc
 var avgLun = monLun / 30;
 
 //Print the average amount spent per day on lunch while at work.
-console.log("Your average amount spent on lunch per day is" +" "+ monLun + ".");
+console.log("Your average amount spent on lunch per day is" +" "+ avgLun + ".");
