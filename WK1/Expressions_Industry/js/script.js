@@ -28,6 +28,6 @@ var workLun = ["week1", "week2", "week3", "week4"];
 
 var monLun = (week1 + week2 + week3 + week4);
 
-console.log("You have spent a total of" +" "+ monLun +" "+ "this month on lunch will at work.");
+console.log("You have spent a total of $" +" "+ monLun +" "+ "this month on lunch while at work.");
 
 
