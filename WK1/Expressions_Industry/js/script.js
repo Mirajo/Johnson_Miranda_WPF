@@ -22,6 +22,12 @@ var avgHours = monthHours / 30;
 
 console.log("Your average hours worked per day are"+ " "+ avgHours);
 
-workLun = ["week1", "week2", "week3", "week4", "week5"];
+var workLun = ["week1", "week2", "week3", "week4"];
+
+[week1 = 71.26, week2 = 66.82, week3 = 75.53, week4 = 69.44];
+
+var monLun = (week1 + week2 + week3 + week4);
+
+console.log("You have spent a total of" +" "+ monLun +" "+ "this month on lunch will at work.");
 
 
