@@ -38,8 +38,8 @@ var monLun = (week1 + week2 + week3 + week4);
 //Print total amount spent on lunch during the month while working
 console.log("You have spent a total of $" +" "+ monLun +" "+ "this month on lunch while at work.");
 
-//Variable for average amount spent on lunch per day.
+//Variable for average amount spent on lunch per day
 var avgLun = monLun / 30;
 
 //Print the average amount spent per day on lunch while at work.
-console.log("Your average amount spent on lunch per day is" +" "+ avgLun + ".");
+console.log("Your average amount spent on lunch per day is $" +" "+ avgLun + ".");
