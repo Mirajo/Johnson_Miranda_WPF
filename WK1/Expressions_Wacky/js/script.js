@@ -7,9 +7,15 @@
 
 var socks = 100; //declare socks variable
 
-var socksM = socks - 2; //Socks missing variable
+var socksR = socks - 2; //Socks missing variable
   
-console.log(socksM); //Print out Socks Missing
+console.log(socksR); //Print out Socks Remaining
 
+socksMo = socks - socksR; //Socks missing per month
 
+console.log(socksMo); //Print out socks missing per month
+
+socksMom = socksR * 4; //Total socks lost per month
+
+console.log(socksMom); //Print out socks missing per month
 
