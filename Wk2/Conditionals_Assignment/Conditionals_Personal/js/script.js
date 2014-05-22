@@ -3,6 +3,9 @@
 //Conditionals Assignment WPF
 
 
+var cWeight = prompt("What is your weight ?");//Input your current weight
+var gWeight = prompt("What is your goal weight ?")//Input your goal/ideal weight
+
 
 
 
