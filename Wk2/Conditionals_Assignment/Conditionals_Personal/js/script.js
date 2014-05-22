@@ -1,6 +1,6 @@
 //Miranda Johnson
 //05-22-2014
-//Conditionals Assignment WPF
+//Conditionals-Personal Assignment WPF
 
 
 var cWeight = Number(prompt("What is your weight ?"));    //Input your current weight
@@ -14,5 +14,6 @@ console.log(lWeight);
 var perDay = lWeight / dWorkedout; //Total pounds you've lost per day.
 console.log(perDay);  //Print out the total pounds you've lost per day.
 
-
+var wlDays = gWeight / perDay; //Today days till weight loss goal.
+console.log(wlDays);
 
