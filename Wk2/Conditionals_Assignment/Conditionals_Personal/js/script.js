@@ -24,7 +24,7 @@ var perDay = lWeight / dWorkedout; //Total pounds you've lost per day.
 console.log("Your weight loss rate is" + " " + perDay + "lbs. per day");  //Print out the total pounds you've lost per day.
 
 var wlDays = gWeight / perDay; //Today days till weight loss goal.
-console.log(wlDays);  //Print out total days until weight loss goal
+console.log("You need " + wlDays);  //Print out total days until weight loss goal
 
 if(perDay != " "){
 //
