@@ -1,33 +1,10 @@
-//Conditionals Worksheet WPF Activity
+//Miranda Johnson
+//05-22-2014
+//Conditionals Assignment WPF
 
 
 
 
-//Stuff Your Face I
-
-
-
-//Celsius to Fahrenheit converter
-
-
-
-//Last Chance to Gas
-
-
-
-//Grade Letter Calculator
-
-
-
-//Check the login
-
-
-
-//Tire Pressure I
-
-
-
-//Movie Ticket Price
 
 
 
