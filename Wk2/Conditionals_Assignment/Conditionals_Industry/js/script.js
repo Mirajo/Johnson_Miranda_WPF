@@ -13,17 +13,17 @@ var maxAge = 100; //maximum age allowed for registration
 
 if(userAge < minAge){ 
 	//Inform user that they do not meet the age requirement for registration.
-	alert("You must be 13 years old or older to join this site.")
+	alert("You must be 13 years old or older to join this site.");
 	//print out users must be 13 years old or older to join
-	console.log("You must be 13 years or older to join this site.")
+	console.log("You must be 13 years or older to join this site.");
 }
-	else(userAge >= minAge { 
+	else(userAge >= minAge) { 
 	//print out that all users must read and agree to terms for website registration
-	console.log("You must read and agree to the terms for registration approval.")
+	console.log("You must read and agree to the terms for registration approval.");
 }
 	else if(userAge == maxAge) {
-
-	console.log("You are 
+	//print out 
+	console.log("You are the maximum age allowed to register on this website");
 
 
 
