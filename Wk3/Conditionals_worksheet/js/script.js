@@ -4,6 +4,7 @@
 
 
 //Stuff Your Face I
+var CWeight = Number(prompt("Enter competitor's weight."));  //A prompt for competitor to enter his weight
 
 
 
