@@ -28,8 +28,8 @@ console.log("You are" + " " + wlDays + " " + "workout days away from your goal."
 
 if(perDay == " "){
 	//
-	console.log("Your daily weight loss is on target. Good Job !");
+	console.log("Your daily weight loss is not on target !");
 }else{
 	//
-	console.log("Your daily weight loss is not on target !");
+	console.log("Your daily weight loss is on target. Good Job !");
 }

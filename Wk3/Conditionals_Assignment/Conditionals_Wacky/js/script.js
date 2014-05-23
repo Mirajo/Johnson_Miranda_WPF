@@ -15,10 +15,10 @@ var wStilts =  parseInt(minHeight); //variable for height with stilts on
 console.log("You are" + " " + wStilts + " " + "feet tall with stilts on."); //print out the height with stilts on
 
 
-if (wStilts >= minHeight) //compare height entered to min height required to enter
-   console.log("You are tall enough to enter");  //print out you are tall enough to enter
+if (minHeight >= wStilts) //compare height entered to min height required to enter
+   console.log("You are tall enough to enter.");  //print out you are tall enough to enter
    
-   else if(wStilts < minHeight) {//Height is less than or equal to min height required
+   else if(wStilts > minHeight) {//Height is less than or equal to min height required
    console.log("You are not tall enough to enter."); //print you are not tall enough to enter
    alert("Enter your height with stilts on.") //Inform user he/she is not tall enough to enter
    height = prompt("Enter your height"); //User must re-enter his/her height

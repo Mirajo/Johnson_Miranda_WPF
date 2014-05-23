@@ -18,7 +18,7 @@ if(userAge < minAge){
 } else if(userAge >= minAge){
    //print out that all users must read and agree to terms for website registration.
    console.log("You must read and agree to the terms for registration approval.");
-} else(userAge == maxAge){
+}else{(userAge == maxAge)
    //print out you are the maximum for registration on this website
    console.log("You are the maximum age for registration on this website");
 }   
