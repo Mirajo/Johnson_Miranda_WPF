@@ -12,7 +12,9 @@ var maxAge = 100; //maximum age allowed for registration
 
 
 if(userAge < minAge){ 
+	//Inform user that they do not meet the age requirement for registration.
 	alert("You must be 13 years old or older to join this site.")
+	//print out users must be 13 years old or older to join
 	console.log("You must be 13 years or older to join this site.")
 }
 	else(userAge >= minAge { 
