@@ -17,13 +17,15 @@ if(userAge < minAge){
 	//print out users must be 13 years old or older to join
 	console.log("You must be 13 years or older to join this site.");
 }
-	else(userAge >= minAge) { 
+	else(userAge >= minAge){ 
 	//print out that all users must read and agree to terms for website registration
 	console.log("You must read and agree to the terms for registration approval.");
 }
-	else if(userAge == maxAge) {
+	else if(userAge == maxAge){
 	//print out 
 	console.log("You are the maximum age allowed to register on this website");
+}	
+	
 
 
 
