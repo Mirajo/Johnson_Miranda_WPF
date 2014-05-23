@@ -30,7 +30,7 @@ console.log("Your average hours worked per day are"+ " "+ avgHours);
 var workLun = ["week1", "week2", "week3", "week4"];
 
 //Array values defined
-[week1 = 71.26, week2 = 66.82, week3 = 75.53, week4 = 69.44];
+[71.26, 66.82, 75.53, 69.44];
 
 //Array values added
 var monLun = (week1 + week2 + week3 + week4);
