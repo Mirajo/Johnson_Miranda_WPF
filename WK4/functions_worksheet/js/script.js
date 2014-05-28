@@ -21,9 +21,14 @@ console.log("The circumference of the circle is" +  " " + cirDia );
 
 //calculate how many bee stings are needed
 
-var bStings = function(){
-
+//Define function
+var bStings = function(weight, stings){
+//Run Function
+ var aDeath = weight * stings;
+ //Return function
+ return aDeath;
 }
+
 
 
 
