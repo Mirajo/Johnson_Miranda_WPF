@@ -11,9 +11,9 @@ var cirCir = function(p,d){
 	return cir;
 	}
 //Enter circle diameter	
-var cir = cirCir(3.14, prompt("Enter the diameter of the circle."));
+var cirDia = cirCir(3.14, prompt("Enter the diameter of the circle."));
 
-//console.log("The circumference of the circle is " + cir ");	
+console.log("The circumference of the circle is" + cirDia ");	
 
 
 
