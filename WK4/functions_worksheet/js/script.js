@@ -29,7 +29,11 @@ var bStings = function(weight, stings){
  return aDeath;
 }
 
+//Enter
+var abStings = bStings(prompt("Enter Animals Weight."), 8.666666667);
 
+//Print out console
+console.log("It takes" + " " + abStings + " " + "to kill this animal.");
 
 
 
