@@ -1,14 +1,6 @@
 //Functions Worksheet WPF Activity
 
 
-
-//Calculate the area of a rectangle
-
-
-
-
-
-
 //calculate the circumference of a circle
 
 //Define function
@@ -23,9 +15,11 @@ var cir = cirCir(3.14, prompt("Enter the diameter of the circle."));
 
 //console.log("The circumference of the circle is " + cir ");	
 
+
+
 //calculate how many bee stings are needed
 
-
+var bStings = function
 
 
 
