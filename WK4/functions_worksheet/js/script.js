@@ -18,6 +18,8 @@ var cirCir = function(p,d){
 	//Return function
 	return cir;
 	}
+//Enter circle diameter	
+var cir = cirCir(3.14, prompt("Enter the diameter of the circle."));	
 
 //calculate how many bee stings are needed
 
