@@ -41,11 +41,19 @@ console.log("You've borrowed" +" "+ bAmt +" "+ "to stay in business."); //Print 
 var bmAmt = parseInt(bAmt) / 12; 
 console.log("You have borrowed" +" "+ bmAmt +" "+ "per month to help pay for expenses."); //Print the amount borrowed you have per month for expenses
 
-var ctExp = function (hAmt,aAmt,oAmt,lAmt,ssAmt,osAmt,iAmt)
-		{return parseInt(hAmt) + parseInt(aAmt) + parseInt(oAmt) + parseInt(lAmt) + parseInt(ssAmt) + parseInt(osAmt) + parseInt(iAmt)}; //The function adding all the expenses with a return.
+var ctExp = function (hAmt,aAmt,oAmt,lAmt,ssAmt,osAmt)
+		{return parseInt(hAmt) + parseInt(aAmt) + parseInt(oAmt) + parseInt(lAmt) + parseInt(ssAmt) + parseInt(osAmt)}; //The function adding all the expenses with a return.
  
 var tExp = ctExp(hAmt,aAmt,oAmt,lAmt,ssAmt,osAmt,iAmt);  //A variable to show the amount calculated by the function    
 
-console.log("Your total expenses for the month are" + "$" +" "+ tExp +" "+ ".00."); //Print the total expenses
+console.log("Your total expenses for the month are" + " "+ "$" + tExp); //Print the total expenses
+
+
+var psIn = function (imAmt,cmAmt,bmAmt)
+		{return parseInt(imAmt) + parseInt(cmAmt) + parseInt(bmAmt)}; //The function adding all income prior to sales with a return.
+ 
+var tpsIn = psIn(imAmt,cmAmt,bmAmt);  //A variable to show the amount calculated by the function    
+
+console.log("Your total pre-sales income for the month is" + " "+ "$"+ tpsIn); //Print the income before sales
 
 
