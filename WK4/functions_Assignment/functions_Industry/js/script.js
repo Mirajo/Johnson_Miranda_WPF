@@ -35,5 +35,7 @@ console.log("You have" +" "+ cmAmt +" "+ "per month for expenses."); //Print the
 //var bAmt = prompt("What is the amount you have borrowed to stay in business ?"); //Enter the amount you've borrowed
 //console.log("You've borrowed" +" "+ bAmt +" "+ "to stay in business."); //Print the amount you have borrowed to stay in business
 
+var tExp = function (hAmt,aAmt,oAmt,lAmt,ssAmt,osAmt,iAmt,)
+		{return parseInt(hAmt) + parseInt(aAmt) + parseInt(oAmt) + parseInt(lAmt) + parseInt(ssAmt) + parseInt(osAmt) + parseInt(iAmt)}; //
 
 
