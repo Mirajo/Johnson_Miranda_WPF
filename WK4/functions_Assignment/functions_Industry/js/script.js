@@ -62,6 +62,8 @@ if(tpsIn >= tExp){
     }else if (tpsIn <= tExp){
     //Print out
     console.log("We need more income fast !");
+    }else{
+    console.log("We're just breaking even.");
     }
     
 
