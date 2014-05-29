@@ -56,4 +56,9 @@ var tpsIn = psIn(imAmt,cmAmt,bmAmt);  //A variable to show the amount calculated
 
 console.log("Your total pre-sales income for the month is" + " "+ "$"+ tpsIn); //Print the income before sales
 
+if(tpsIn >= tExp){
+    //Print out this is good
+    console.log("This is good !")
+    
+
 
