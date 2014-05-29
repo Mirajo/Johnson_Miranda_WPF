@@ -33,7 +33,7 @@ var iAmt = prompt("What is the amount you have received from investors ?"); //En
 console.log("You've received" +" "+ iAmt +" "+ "from investors this month."); //Print the amount you have received from investors
 
 var imAmt = parseInt(iAmt) / 12; 
-console.log("You have borrowed" +" "+ imAmt +" "+ "per month to help pay for expenses."); //Print the amount received from investors you have per month for expenses
+console.log("Investors have given you" +" "+ imAmt +" "+ "per month to help pay for expenses."); //Print the amount received from investors you have per month for expenses
 
 var bAmt = prompt("What is the amount you have borrowed to stay in business ?"); //Enter the amount you've borrowed
 console.log("You've borrowed" +" "+ bAmt +" "+ "to stay in business."); //Print the amount you have borrowed to stay in business
@@ -47,3 +47,5 @@ var ctExp = function (hAmt,aAmt,oAmt,lAmt,ssAmt,osAmt,iAmt)
 var tExp = ctExp(hAmt,aAmt,oAmt,lAmt,ssAmt,osAmt,iAmt);  //A variable to show the amount calculated by the function    
 
 console.log("Your total expenses for the month are" + "$" +" "+ tExp +" "+ ".00."); //Print the total expenses
+
+
