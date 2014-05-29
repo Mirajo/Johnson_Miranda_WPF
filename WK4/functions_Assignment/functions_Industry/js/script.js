@@ -6,6 +6,7 @@
 //Office/Work Budget/Debt
 
 var cAmt = prompt("How much do you currently have for expenses ?");//Enter the amount you currently have for the budget
+console.log("You currently have " + " "+ cAmt + " " + "for expenses.")
 var hAmt = prompt("What is the amount you spend on monthly hosting ?"); //Enter the amount you spend on hosting monthly
 var aAmt = prompt("What is the amount you spend on monthly advertising ?"); //Enter the amount you spend on advertising monthly
 var oAmt = prompt("What is the amount you spend for office space?"); //Enter the amount you spend for office space rental
