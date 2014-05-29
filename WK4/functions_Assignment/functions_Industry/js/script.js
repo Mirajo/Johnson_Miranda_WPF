@@ -58,7 +58,11 @@ console.log("Your total pre-sales income for the month is" + " "+ "$"+ tpsIn); /
 
 if(tpsIn >= tExp){
     //Print out this is good
-    console.log("This is good !")
+    console.log("This is good !");
+    }else if (tpsIn <= tExp){
+    //Print out
+    console.log("We need more income fast !");
+    }
     
 
 
