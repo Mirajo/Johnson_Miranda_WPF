@@ -22,3 +22,5 @@ function tpAten(pAten, ppAten){
  
  console.log("There are" + " " + aAten + " " + "people here now"); //This is the current number attending now
  
+ aAten <= (pMax) ? console.log("
+ 
