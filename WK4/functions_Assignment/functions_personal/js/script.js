@@ -13,5 +13,10 @@ var mPh = parseInt(pMax) / 60; //Calculate maximum attendees permitted per min
 console.log("The maximum number of attendees permitted per min is" + " " + mPh);
 
 function tpAten(pAten, ppAten){
- return parseInt(pAten) + parseInt(ppAten); //Return total number of party attendees
+ return parseInt(pAten) + parseInt(ppAten); //Function is the total of attendees present and entering
  }
+ 
+ var aAten = tpAten(pAten, ppAten); //variable for all attendees
+ 
+ console.log("There are" + aAten + "people here now"); //This is the current number attending now
+ 
