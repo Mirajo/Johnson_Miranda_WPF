@@ -22,5 +22,5 @@ function tpAten(pAten, ppAten){
  
  console.log("There are" + " " + aAten + " " + "people here now"); //This is the current number attending now
  
- aAten <= (pMax) ? console.log("
+ aAten <= (pMax) ? console.log("We are under capacity") : console.log("We are over capacity"); //A ternary  
  
