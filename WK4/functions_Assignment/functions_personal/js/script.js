@@ -5,8 +5,10 @@
 
 //Party attendees
 
-var pAten = prompt(Number("How many attendees are entering ?")); //Enter number of attendees entering
-var ppAten = prompt(Number("How many attendees are present ?")); //Enter number of attendees present
+var pAten = prompt("How many attendees are entering ?"); //Enter number of attendees entering
+console.log("There are" + " " + pAten + " " + "people entering now."); //Print number of people entering now
+
+var ppAten = prompt("How many attendees are present ?"); //Enter number of attendees present
 
 var pMax = 300; //Maximun capacity for event
 var mPh = parseInt(pMax) / 60; //Calculate maximum attendees permitted per min
@@ -18,5 +20,5 @@ function tpAten(pAten, ppAten){
  
  var aAten = tpAten(pAten, ppAten); //variable for all attendees
  
- console.log("There are" + aAten + "people here now"); //This is the current number attending now
+ console.log("There are" + " " + aAten + " " + "people here now"); //This is the current number attending now
  
