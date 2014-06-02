@@ -20,7 +20,7 @@ var message; //message for the odds of getting a silver dollar
 var pch = 1/500; //min for poor chance of getting silver dollar
 
 //set the odds
-message = (1/tSd > pch) ? "You have great odds ! " ; "The odds are not great.";
+message = (1/tSd > pch) ? "You have great odds ! " : "The odds are not great.";
 //Print out the message
 console.log(message);
 
