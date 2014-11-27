@@ -1,0 +1,90 @@
+/*  
+	Pronizer
+	Author: Miranda Johnson
+	PWAII
+*/
+
+body{
+	background-image:url('../images/pronizer-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #f1f2f4;
+	font-size: 14px;
+	padding:0;
+}
+	
+header {
+	background-color: #5C5D5F;
+	width: 960px;
+	height: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#userid  {
+	float: right;
+	background-color: #ffffff;
+	text-align:center;
+	color: #404031;
+	
+}
+#logo {
+	clear: right;
+}
+nav {	
+	background-color:#ffffff;
+	text-align:center;
+	color: #404031;
+	
+}	
+nav ul li {
+	display: inline;
+	padding:0.5em;
+	text-decoration:none;
+	
+}
+#container {
+	width:960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ebebeb;
+}
+
+#tabs {
+    background-color: #CCC;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+}
+ #tabs-nav {
+     width: 500px;
+     height: 100px;
+     padding: 10px;
+     background-color: #999;
+     text-decoration: none;
+     list-style-type: none;
+
+ }
+ #tabs-nav li {
+     display: inline;
+ }
+.tooltip {
+    display: none;
+    position: absolute;
+    border: 1px solid #ebebeb;
+    background-color: #333333;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 12px Arial;
+ }
+		
+.footer{
+	width:960px;
+	height: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#5C5D5F;
+	text-align: center;
+}
